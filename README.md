@@ -54,3 +54,66 @@ A estrutura principal do repositório é:
 │   └── RELATORIO_TEMPORARIO.md
 └── arquivos_zipados
     └── resultados_finais_v31.zip
+
+---
+
+```
+
+## Descrição das pastas
+
+notebooks
+
+Contém os notebooks utilizados no projeto.
+
+O notebook principal é:
+
+notebooks/projeto-5-ner-bertimbau-final-v4.ipynb
+
+Esse é o notebook final, limpo e organizado, contendo a versão oficial do pipeline.
+
+Ele inclui:
+
+carregamento da base;
+preparação textual;
+análise exploratória;
+criação das labels temáticas;
+treinamento do NER personalizado;
+geração de embeddings com BERTimbau;
+construção da representação híbrida;
+clusterização com KMeans;
+interpretação dos clusters;
+comparação entre versões;
+salvamento dos resultados finais.
+notebooks/notebooks_de_teste
+
+Contém os notebooks usados durante o desenvolvimento do projeto.
+
+Nessa pasta estão os testes intermediários, versões experimentais e também a versão utilizada na entrega temporária.
+
+Esses notebooks foram mantidos para documentar a evolução do trabalho, mas não são a versão oficial para avaliação.
+
+relatorios
+
+Contém os relatórios do projeto.
+
+O arquivo principal é:
+
+relatorios/RELATORIO_FINAL.md
+
+Esse é o relatório final, com a explicação completa da metodologia, das decisões tomadas, dos testes realizados, dos resultados obtidos e das limitações da solução.
+
+Também há o arquivo:
+
+relatorios/RELATORIO_TEMPORARIO.md
+
+Esse relatório corresponde à entrega provisória e foi mantido no repositório apenas para registro histórico do desenvolvimento.
+
+arquivos_zipados
+
+Contém os resultados finais do notebook comprimidos em arquivo .zip.
+
+O arquivo principal é:
+
+arquivos_zipados/resultados_finais_v31.zip
+
+Esse arquivo reúne os resultados gerados pelo notebook final, como tabelas de clusters, entidades extraídas, métricas, resumos e demais artefatos do pipeline.
